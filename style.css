@@ -6,7 +6,7 @@
 }
 body{
     height: 100vh;
-    background-image: linear-gradient(rgba(243, 253, 246, 0.7), rgba(218, 218, 218, 0.7)),url(bdaygirl.jpg);
+    background-image: url(bdaygirl.jpg);
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;
