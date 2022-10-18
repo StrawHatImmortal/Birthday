@@ -6,7 +6,8 @@
 }
 body{
     height: 100vh;
-    background-image: url(bdaygirl.jpg);
+    background-color: aqua;
+    background-image: url(hash.webp);
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,6 +37,7 @@ body{
  .outside,.inside{
     width: 114%;
     height: 100%;
+    opacity: 70%;
     border-radius: 20px;
     text-align: center;
     padding: 1.5rem;
@@ -58,12 +60,16 @@ body{
     transform: rotateY(180deg);
     backface-visibility: hidden;
 }
+.inside img{
+    margin-left: -5%;
+}
 .inside h3{
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 20px;
 } 
 .frames{
+    opacity: 70%;
     width: 400px;
     height: 150px;
     box-shadow: 0 5px 10px rgba(255, 255, 255, 0.5);
